@@ -9,7 +9,7 @@ public class CurveEnemy extends Enemy {
 		if(x<GameWorld.player.x) {
 			x++;
 		}
-		if(x<GameWorld.player.x) {
+		if(x>GameWorld.player.x) {
 			x--;
 		}
 	}
