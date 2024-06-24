@@ -68,7 +68,7 @@ public class GameFrame extends MyFrame {
 				if(e.life<=0){
 					GameWorld.enemies.remove(j);
 				}else {
-					j++;
+					j++;  
 				}
 			}
 			if (hits > 0) {
